@@ -5,9 +5,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        
+        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Changes saved54654654
+          Edit <code>src/App.js</code> and saved still not.
         </p>
         <a
           className="App-link"
