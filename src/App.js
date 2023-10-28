@@ -26,8 +26,7 @@ H:\5th_SEMESTER\01 SOFTWARE PROJECT\Softwareproject2023.10.28\software_project>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           මගේ  project එකේ පලවෙනි user විදිහට අක්කව සාදරෙන් පිලිගන්නවා<br/>
-          හලෝ මම මේක ඉස්සල්ලම හදපු එක මේක වෙනස් කරන්න නම් පුලුවන් ඕනවිදිහකට ..<br/>
-          මේ වගේ ඒවා හදලා business එකක් කරමුද?<br/>
+          
 
         </p>
         <a
@@ -36,7 +35,7 @@ H:\5th_SEMESTER\01 SOFTWARE PROJECT\Softwareproject2023.10.28\software_project>
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React ane manda ithin
+          මේ ටික හදලා නෑ  තාම  හලෝ 
         </a>
       </header>
     </div>
