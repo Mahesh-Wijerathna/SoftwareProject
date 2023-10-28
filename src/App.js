@@ -5,9 +5,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        
+        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          All things fine
+          Edit  and saved still not still image cannot be removed.
         </p>
         <a
           className="App-link"
