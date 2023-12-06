@@ -29,12 +29,7 @@ H:\5th_SEMESTER\01 SOFTWARE PROJECT\Softwareproject2023.10.28\software_project>
           
 
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        
           දැන් හදාගෙන යන්නෙ 
         </a>
       </header>
