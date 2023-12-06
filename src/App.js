@@ -35,7 +35,7 @@ H:\5th_SEMESTER\01 SOFTWARE PROJECT\Softwareproject2023.10.28\software_project>
           target="_blank"
           rel="noopener noreferrer"
         >
-          මේ ටික හදලා නෑ  තාම  හලෝ 
+          දැන් හදාගෙන යන්නෙ 
         </a>
       </header>
     </div>
