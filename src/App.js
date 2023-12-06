@@ -1,44 +1,45 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
-import Login from './Components/Login';
-import Home from './Components/Home';
-import Signup from './Components/Signup';
-import Weather from './Components/Weather';
-import Details from './Components/Details';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { selectUser } from "./Components/UserSlice";
-import { useSelector } from "react-redux";
+import logo from './logo.svg';
+import './App.css';
 
-const App = () => {
-  const user = useSelector(selectUser);
-  console.log(user);
+function App() {
+  /*
+  H:\5th_SEMESTER\01 SOFTWARE PROJECT\Softwareproject2023.10.28\software_project>git commit -m "changes59"
+[master 897bedc] changes59
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 
-  const userType = user?.userType;
+H:\5th_SEMESTER\01 SOFTWARE PROJECT\Softwareproject2023.10.28\software_project>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 374 bytes | 187.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/Mahesh-Wijerathna/SoftwareProject.git
+   e5ac0fb..897bedc  master -> master
 
-  const isLoggedInAndAdmin = user && userType === "admin";
-
+H:\5th_SEMESTER\01 SOFTWARE PROJECT\Softwareproject2023.10.28\software_project>
+*/
   return (
-
-      <div className="app">
-
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          මගේ  project එකේ පලවෙනි user විදිහට ඔයාව සාදරෙන් පිලිගන්නවා<br/>
           
 
-              <Router>
-                  <Routes>
-
-                      <Route path="/" element={<Home/>}/>,
-                      <Route path="/login" element={<Login/>}/>,
-                      <Route path="/signup" element={<Signup/>}/>,
-                      <Route path="/weather" element={<Weather/>}/>,
-                      <Route path="/details" element={<Details/>}/>,
-                  </Routes>
-              </Router>
-          
-      </div>
-
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          දැන් හදාගෙන යන්නෙ 
+        </a>
+      </header>
+    </div>
   );
-};
+}
 
 export default App;
