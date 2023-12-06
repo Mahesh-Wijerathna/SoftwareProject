@@ -23,7 +23,7 @@ H:\5th_SEMESTER\01 SOFTWARE PROJECT\Softwareproject2023.10.28\software_project>
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        
         <p>
           මගේ  project එකේ පලවෙනි user විදිහට ඔයාව සාදරෙන් පිලිගන්නවා<br/>
           
