@@ -28,10 +28,10 @@ H:\5th_SEMESTER\01 SOFTWARE PROJECT\Softwareproject2023.10.28\software_project>
           මගේ  project එකේ පලවෙනි user විදිහට ඔයාව සාදරෙන් පිලිගන්නවා<br/>
           
 
-        </p>
+        
         
           දැන් හදාගෙන යන්නෙ 
-        </a>
+        </p>
       </header>
     </div>
   );
